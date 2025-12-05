@@ -130,7 +130,7 @@ df['Distance'] = df.apply(lambda row: haversine(row['Restaurant_latitude'], row[
                                                 row['Customer_latitude'], row['Customer_longitude']), axis=1)
 
 print("DataFrame with Distance column:")
-display(df.head())
+print(df.head())
 
 """###Gaussian Naive Bayes Model
 
